@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Zilla+Slab:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:regular,italic,600,600italic,700,700italic&display=swap&subset=cyrillic-ext");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 20px;
+}
+body {
+	font-family: "Montserrat Alternates", sans-serif;
+	color: #b54ea4;
+	text-align: center;
+}
+
+.head,
+.title {
+	font-family: "Zilla Slab", sans-serif;
+	text-transform: uppercase;
+	font-style: italic;
+	color: #692d5f;
+	text-shadow: 3px -3px 3px #e29cd6;
+}
+.head {
+	font-weight: 700;
+	font-size: 26px;
+}
+.title {
+	font-weight: 500;
+	font-size: 21px;
+}
+.link {
+	color: #c5004f;
+	font-weight: 500;
+	font-style: italic;
+	text-decoration: underline;
+}
+li {
+	list-style: inside;
+}
+.liststyle {
+	color: #c5004f;
+}
+p,
+ul {
+	text-align: left;
+}
+.identtitle {
+	text-indent: 7%;
+}
